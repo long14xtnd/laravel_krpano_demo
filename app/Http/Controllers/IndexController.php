@@ -77,6 +77,10 @@ class IndexController extends Controller
 
         return view('pages.heating');
     }
+    public function longtest()
+    {
+        return view('pages.longtest');
+    }
 
     public function category($slug)
     {

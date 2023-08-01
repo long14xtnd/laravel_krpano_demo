@@ -25,6 +25,9 @@ Route::get('/', [IndexController::class, 'home'])->name('homepage');
 Route::get('/homestay', [IndexController::class, 'homestay'])->name('homestay');
 //======================heating============================ 
 Route::get('/heating', [IndexController::class, 'heating'])->name('heating');
+
+//======================long test============================ 
+Route::get('/longtest', [IndexController::class, 'longtest'])->name('longtest');
 Route::middleware(['auth'])->group(function () {
     Route::resource('category', CategoryController::class);
     Route::resource('genre', GenreController::class);
