@@ -1,0 +1,771 @@
+<krpano>
+
+ <menu_sm  
+			open_start="true"
+			open_start_mob="false"
+			click_hide="false"
+			mobile_click_hide="true"
+			menu_width="250"
+			menu_height="100%"
+			menu_x="0"
+			menu_y="0"
+			menu_bgcolor="0x296E78"
+			menu_bgborder="0,0,0,0 0x6698A8 0.96"
+			menu_bgroundedge="0 0 0 0"
+			menu_bgshadow="2 2 3 0x0D0D0D 0.42"
+			menu_bgalpha="0.66"
+			menu_align="lefttop"
+			logo_cont_height="79"
+			logo_height="47"
+			logo_cont_color="0x05484D"
+			logo_cont_alpha="0.50"
+			logo_y="6"
+			logo_x="4"
+			logo="%CURRENTXML%/menu/image/logotip.png"
+			logo_text="novosibpano.ru"
+			logo_txtshadow="2 2 4 0x000000 0.6"
+			logo_css_text="font-family:Verdana; font-style:italic; text-align:center; color:#FFFFFF; font-size:15px;"
+			logo_padding="0 131 10 8"
+			logo_click="openFrame(iframe, http://novosibpano.ru/Plugins/Menu_en.html, 1200, 900, true);"
+			title_height="34"
+			title_width="100%"
+			title_bgcolor="0x2A6F7A"
+			title_bgalpha="0.97"
+			title_bgshadow="0 5 18 0x191919 0.54"
+			title_bgborder="1,1,1,1 0xA3AFB0 1.00"
+			title_bgroundedge="0 0 0 0"
+			title_text_1="Menu"
+			title_text_2="Меню"
+			title_text_3="Menu 3"
+			title_text_4="Menu 4"
+			title_text_bgshadow="2 2 3 0x000000 0.4"
+			title_css="font-family:Verdana; font-style:italic; text-align:center; margin-left:20px; margin-right:5px; color:#FFFFFF; font-size:15px;"
+			title_padding="0 45 0 0"
+			title_onover_color="3571594"
+			title_picture=""
+			group_indicator_height="20"
+			head_step_v="10"
+			head_width="90%"
+			head_height="45"
+			head_x="0"
+			head_bgcolor="0x2B6F7A"
+			head_bgalpha="0.99"
+			head_bgborder="2,0,0,2 0x628D8F 0.97"
+			head_bgroundedge="0 16 0 17"
+			head_bgshadow="3 4 3 0x0A0A0A 0.44"
+			head_text_bgshadow="2 2 4 0x000000 0.6"
+			head_padding="0 10 0 18"
+			head_line_css="font-family:Verdana; font-style:italic; color:#FFFFFF; font-size:14px;"
+			head_onover_color="0x2B828F"
+			head_onover_bgalpha="0.9"
+			line_step_v="6"
+			line_width="90%"
+			line_height="32"
+			line_x="0"
+			line_bgcolor="0x296E78"
+			line_bgalpha="0.98"
+			line_onover_color="0x3AADBF"
+			line_onover_bgalpha="0.9"
+			line_bgborder="2,0,0,2 0x61A8B3 0.98"
+			line_bgroundedge="9 9 9 9"
+			line_bgshadow="2 3 3 0x052129 0.64"
+			line_text_bgshadow="2 2 4 0x000000 0.6"
+			line_padding="0 10 0 21"
+			line_css="font-family:Verdana; font-style:italic; color:#FFFFFF; font-size:12px;"
+			line_css2="font-family:Verdana; font-style:italic; font-size:12px; color:#FFFF00;"
+			thumbnail_width="90%"
+			thumbnail_height="98"
+			thumbnail_x="0"
+			thumbnail_step_v="12"
+			thumbnail_bgcolor="0x0B5D66"
+			thumbnail_bgalpha="0.29"
+			thumbnail_onover_bgalpha="0.76"
+			thumbnail_onover_color="0x0F5230"
+			thumbnail_bgroundedge="0 19 0 13"
+			thumbnail_bgborder="0,0,0,0 0xFFFFFF 0.97"
+			thumbnail_bgshadow="6 8 13 0x000000 0.51"
+			thumbnail_text_bgshadow="2 2 3 0x1D1D1D 0.6"
+			thumbnail_padding="0 1 0 0"
+			thumbnail_css="font-family:Verdana; font-style:italic; font-size:14px; color:#FFFFFF; text-align:center;"
+			view_marker="true"
+			picture_url="%FIRSTXML%/menu/image/Picture/butt2.jpg"
+			picture_height="37"
+			picture_alpha="1"
+			picture_bgborder="0,0,0,0 0xFFFFFF 1"
+			picture_bgroundedge="2 2 2 2"
+			picture_bgshadow="2 2 3  0x1D1D1D 0.6"
+			picture_crop="0|80|273|80"
+			picture_onower="set(crop,0|0|273|80);"
+			picture_onout="set(crop,0|80|273|80);"
+			picture_padding="0 5 0 20"
+			picture_css="font-family:Verdana; font-style:italic; font-size:14px; color:#FFFFFF; text-align:center;"
+			icon_style_line="height:25px;vertical-align:middle; margin-right:10px;"
+			icon_style_head="height:25px;vertical-align:middle; margin-right:10px;"
+			bottom_height="40"
+			lang_1="RU"
+			lang_2="EN"
+			lang_3=""
+			lang_4=""
+			loadscene_flags="MERGE"
+			download_delay="1"
+			picture_line="0"
+			
+	/>
+
+<layer name="gr_1" style="cont_gr" visible="true" enabled="true" add_y="680" step_g="1" />
+
+  <layer name="scr_gr_1" parent="gr_1" style="scroll_m" height="657" />
+
+  <layer name="line_1_1" parent="scr_gr_1" style="header_container" onclick=" next_menu(); " y="10" group="true" pos="1" />
+
+  <layer name="gr_1_1" style="cont_gr" x="250" step_g="2" txt_layer="txt_1_1" />
+
+  <layer name="scr_gr_1_1" parent="gr_1_1" style="scroll_m" height="670" />
+
+  <layer name="line_1_1_1" parent="scr_gr_1_1" style="container_thumbnails" onclick="load_m(scene_1);" y="12" pos="1" />
+
+  <layer name="miniat_1_1_1" parent="line_1_1_1" style="menu_thumbnail" url="%FIRSTXML%/panos/1.tiles/thumb.jpg" />
+
+  <layer name="line_1_1_2" parent="scr_gr_1_1" style="container_thumbnails" onclick="load_m(scene_altay);" y="122" pos="2" />
+
+  <layer name="miniat_1_1_2" parent="line_1_1_2" style="menu_thumbnail" url="%FIRSTXML%/panos/Altay.tiles/thumb.jpg" />
+
+  <layer name="line_1_1_3" parent="scr_gr_1_1" style="container_thumbnails" onclick="load_m(scene_chike-taman2);" y="232" pos="3" />
+
+  <layer name="miniat_1_1_3" parent="line_1_1_3" style="menu_thumbnail" url="%FIRSTXML%/panos/chike-taman2.tiles/thumb.jpg" />
+
+  <layer name="line_1_1_4" parent="scr_gr_1_1" style="container_thumbnails" onclick="load_m(scene_katunj);" y="342" pos="4" />
+
+  <layer name="miniat_1_1_4" parent="line_1_1_4" style="menu_thumbnail" url="%FIRSTXML%/panos/Katunj.tiles/thumb.jpg" />
+
+  <layer name="line_1_1_5" parent="scr_gr_1_1" style="container_thumbnails" onclick="load_m(scene_most_katuny);" y="452" pos="5" />
+
+  <layer name="miniat_1_1_5" parent="line_1_1_5" style="menu_thumbnail" url="%FIRSTXML%/panos/Most_Katuny.tiles/thumb.jpg" />
+
+  <layer name="line_1_1_6" parent="scr_gr_1_1" style="container_thumbnails" onclick="load_m(scene_vodopad1);next_menu();" y="562" group="true" pos="6" />
+
+  <layer name="miniat_1_1_6" parent="line_1_1_6" style="menu_thumbnail" url="%FIRSTXML%/panos/Vodopad1.tiles/thumb.jpg" />
+
+  <layer name="gr_1_1_6" style="cont_gr" x="500" step_g="3" txt_layer="txt_1_1_6" />
+
+  <layer name="scr_gr_1_1_6" parent="gr_1_1_6" style="scroll_m" height="230" />
+
+  <layer name="line_1_1_6_1" parent="scr_gr_1_1_6" style="container_thumbnails" onclick="load_m(scene_vodopad1);" y="12" pos="1" />
+
+  <layer name="miniat_1_1_6_1" parent="line_1_1_6_1" style="menu_thumbnail" url="%FIRSTXML%/panos/Vodopad1.tiles/thumb.jpg" />
+
+  <layer name="line_1_2" parent="scr_gr_1" style="header_container" onclick="next_menu();" y="65" group="true" pos="2" />
+
+  <layer name="gr_1_2" style="cont_gr" x="250" step_g="2" txt_layer="txt_1_2" />
+
+  <layer name="scr_gr_1_2" parent="gr_1_2" style="scroll_m" height="400" />
+
+  <layer name="line_1_2_1" parent="scr_gr_1_2" style="container_thumbnails" onclick="load_m(scene_bugrinskiy);" y="12" pos="1" />
+
+  <layer name="miniat_1_2_1" parent="line_1_2_1" style="menu_thumbnail" url="%FIRSTXML%/panos/Bugrinskiy.tiles/thumb.jpg" />
+
+  <layer name="line_1_2_2" parent="scr_gr_1_2" style="container_thumbnails" onclick="load_m(scene_kanal1);" y="122" pos="2" />
+
+  <layer name="miniat_1_2_2" parent="line_1_2_2" style="menu_thumbnail" url="%FIRSTXML%/panos/kanal1.tiles/thumb.jpg" />
+
+  <layer name="line_1_2_3" parent="scr_gr_1_2" style="container_thumbnails" onclick="load_m(scene_kotlovan);" y="232" pos="3" />
+
+  <layer name="miniat_1_2_3" parent="line_1_2_3" style="menu_thumbnail" url="%FIRSTXML%/panos/Kotlovan.tiles/thumb.jpg" />
+
+  <layer name="line_1_2_4" parent="scr_gr_1_2" style="header_container" onclick="load_m(scene_pisanica2);next_menu();" y="345" edit_group="false" group="true" pos="4" step_v="15" edit_gr_t="false" />
+
+  <layer name="gr_1_2_4" style="cont_gr" x="500" step_g="3" txt_layer="txt_1_2_4" />
+
+  <layer name="scr_gr_1_2_4" parent="gr_1_2_4" style="scroll_m" height="340" />
+
+  <layer name="line_1_2_4_1" parent="scr_gr_1_2_4" style="container_thumbnails" onclick="load_m(scene_pisanica2);" y="12" pos="1" />
+
+  <layer name="miniat_1_2_4_1" parent="line_1_2_4_1" style="menu_thumbnail" url="%FIRSTXML%/panos/Pisanica2.tiles/thumb.jpg" />
+
+  <layer name="line_1_2_4_2" parent="scr_gr_1_2_4" style="container_thumbnails" onclick="load_m(scene_pisanica_reka);" y="122" pos="2" />
+
+  <layer name="miniat_1_2_4_2" parent="line_1_2_4_2" style="menu_thumbnail" url="%FIRSTXML%/panos/Pisanica_reka.tiles/thumb.jpg" />
+
+  <layer name="line_1_2_4_3" parent="scr_gr_1_2_4" style="container_thumbnails" onclick="load_m(scene_pisanica_teritor);" y="232" pos="3" />
+
+  <layer name="miniat_1_2_4_3" parent="line_1_2_4_3" style="menu_thumbnail" url="%FIRSTXML%/panos/Pisanica_teritor.tiles/thumb.jpg" />
+
+  <layer name="line_1_3" parent="scr_gr_1" style="header_container" onclick="next_menu();" y="120" group="true" pos="3" />
+
+  <layer name="gr_1_3" style="cont_gr" x="250" step_g="2" txt_layer="txt_1_3" />
+
+  <layer name="scr_gr_1_3" parent="gr_1_3" style="scroll_m" height="670" y="-1.5503706524225656" />
+
+  <layer name="line_1_3_1" parent="scr_gr_1_3" style="container_thumbnails" onclick="load_m(scene_2koleso);" y="12" pos="1" />
+
+  <layer name="miniat_1_3_1" parent="line_1_3_1" style="menu_thumbnail" url="%FIRSTXML%/panos/2Koleso.tiles/thumb.jpg" />
+
+  <layer name="line_1_3_2" parent="scr_gr_1_3" style="container_thumbnails" onclick="load_m(scene_acadtmparc);" y="122" pos="2" />
+
+  <layer name="miniat_1_3_2" parent="line_1_3_2" style="menu_thumbnail" url="%FIRSTXML%/panos/acadtmparc.tiles/thumb.jpg" />
+
+  <layer name="line_1_3_3" parent="scr_gr_1_3" style="container_thumbnails" onclick="load_m(scene_ges);" y="232" pos="3" />
+
+  <layer name="miniat_1_3_3" parent="line_1_3_3" style="menu_thumbnail" url="%FIRSTXML%/panos/GES.tiles/thumb.jpg" />
+
+  <layer name="line_1_3_4" parent="scr_gr_1_3" style="container_thumbnails" onclick="load_m(scene_opernyi);" y="342" pos="4" />
+
+  <layer name="miniat_1_3_4" parent="line_1_3_4" style="menu_thumbnail" url="%FIRSTXML%/panos/Opernyi.tiles/thumb.jpg" />
+
+  <layer name="line_1_3_5" parent="scr_gr_1_3" style="container_thumbnails" onclick="load_m(scene_ngu);" y="452" pos="5" />
+
+  <layer name="miniat_1_3_5" parent="line_1_3_5" style="menu_thumbnail" url="%FIRSTXML%/panos/NGU.tiles/thumb.jpg" />
+
+  <layer name="line_1_3_6" parent="scr_gr_1_3" style="container_thumbnails" onclick="load_m(scene_kemerovo3);" y="562" pos="6" />
+
+  <layer name="miniat_1_3_6" parent="line_1_3_6" style="menu_thumbnail" url="%FIRSTXML%/panos/kemerovo3.tiles/thumb.jpg" />
+
+  <layer name="line_1_4" parent="scr_gr_1" style="header_container" onclick="next_menu();" y="175" group="true" pos="4" />
+
+  <layer name="gr_1_4" style="cont_gr" x="250" step_g="2" txt_layer="txt_1_4" />
+
+  <layer name="scr_gr_1_4" parent="gr_1_4" style="scroll_m" height="450" />
+
+  <layer name="line_1_4_2" parent="scr_gr_1_4" style="container_thumbnails" onclick="load_m(scene_edem1et);" y="12" pos="1" />
+
+  <layer name="miniat_1_4_2" parent="line_1_4_2" style="menu_thumbnail" url="%FIRSTXML%/panos/edem1et.tiles/thumb.jpg" />
+
+  <layer name="line_1_4_1" parent="scr_gr_1_4" style="container_thumbnails" onclick="load_m(scene_edem2et);" y="122" pos="2" />
+
+  <layer name="miniat_1_4_1" parent="line_1_4_1" style="menu_thumbnail" url="%FIRSTXML%/panos/edem2et.tiles/thumb.jpg" />
+
+  <layer name="line_1_4_3" parent="scr_gr_1_4" style="container_thumbnails" onclick="load_m(scene_edemkino);" y="232" pos="3" />
+
+  <layer name="miniat_1_4_3" parent="line_1_4_3" style="menu_thumbnail" url="%FIRSTXML%/panos/edemkino.tiles/thumb.jpg" />
+
+  <layer name="line_1_4_4" parent="scr_gr_1_4" style="container_thumbnails" onclick="load_m(scene_edemkor);" y="342" pos="4" />
+
+  <layer name="miniat_1_4_4" parent="line_1_4_4" style="menu_thumbnail" url="%FIRSTXML%/panos/edemkor.tiles/thumb.jpg" />
+
+  <layer name="line_1_5" parent="scr_gr_1" style="header_container" onclick="next_menu();" y="230" group="true" pos="5" />
+
+  <layer name="gr_1_5" style="cont_gr" x="250" step_g="2" txt_layer="txt_1_5" />
+
+  <layer name="scr_gr_1_5" parent="gr_1_5" style="scroll_m" height="340" />
+
+  <layer name="line_1_5_1" parent="scr_gr_1_5" style="container_thumbnails" onclick="load_m(scene_bassein);" y="12" pos="1" />
+
+  <layer name="miniat_1_5_1" parent="line_1_5_1" style="menu_thumbnail" url="%FIRSTXML%/panos/Bassein.tiles/thumb.jpg" />
+
+  <layer name="line_1_5_2" parent="scr_gr_1_5" style="container_thumbnails" onclick="load_m(scene_dush);" y="122" pos="2" />
+
+  <layer name="miniat_1_5_2" parent="line_1_5_2" style="menu_thumbnail" url="%FIRSTXML%/panos/Dush.tiles/thumb.jpg" />
+
+  <layer name="line_1_5_3" parent="scr_gr_1_5" style="container_thumbnails" onclick="load_m(scene_komnata);" y="232" pos="3" />
+
+  <layer name="miniat_1_5_3" parent="line_1_5_3" style="menu_thumbnail" url="%FIRSTXML%/panos/Komnata.tiles/thumb.jpg" />
+
+  <layer name="line_1_6" parent="scr_gr_1" style="header_container" onclick="next_menu();" y="285" group="true" pos="6" />
+
+  <layer name="gr_1_6" style="cont_gr" x="250" step_g="2" txt_layer="txt_1_6" />
+
+  <layer name="scr_gr_1_6" parent="gr_1_6" style="scroll_m" height="1112" />
+
+  <layer name="line_1_6_1" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_ngu);" y="6" pos="1" />
+
+  <layer name="line_1_6_2" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_1);" y="44" pos="2" />
+
+  <layer name="line_1_6_3" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_2koleso);" y="82" pos="3" />
+
+  <layer name="line_1_6_4" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_acadtmparc);" y="120" pos="4" />
+
+  <layer name="line_1_6_5" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_alp_lag);" y="158" pos="5" />
+
+  <layer name="line_1_6_6" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_altay);" y="196" pos="6" />
+
+  <layer name="line_1_6_7" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_bassein);" y="234" pos="7" />
+
+  <layer name="line_1_6_8" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_bugrinskiy);" y="272" pos="8" />
+
+  <layer name="line_1_6_9" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_chike-taman2);" y="310" pos="9" />
+
+  <layer name="line_1_6_10" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_dush);" y="348" pos="10" />
+
+  <layer name="line_1_6_11" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_edem1et);" y="386" pos="11" />
+
+  <layer name="line_1_6_12" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_edem2et);" y="424" pos="12" />
+
+  <layer name="line_1_6_13" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_edemkino);" y="462" pos="13" />
+
+  <layer name="line_1_6_14" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_edemkor);" y="500" pos="14" />
+
+  <layer name="line_1_6_15" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_ges);" y="538" pos="15" />
+
+  <layer name="line_1_6_16" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_kanal1);" y="576" pos="16" />
+
+  <layer name="line_1_6_17" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_katunj);" y="614" pos="17" />
+
+  <layer name="line_1_6_18" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_kemerovo3);" y="652" pos="18" />
+
+  <layer name="line_1_6_19" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_komnata);" y="690" pos="19" />
+
+  <layer name="line_1_6_20" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_kotlovan);" y="728" pos="20" />
+
+  <layer name="line_1_6_21" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_lenin);" y="766" pos="21" />
+
+  <layer name="line_1_6_22" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_most_katuny);" y="804" pos="22" />
+
+  <layer name="line_1_6_23" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_opernyi);" y="842" pos="23" />
+
+  <layer name="line_1_6_24" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_pisanica2);" y="880" pos="24" />
+
+  <layer name="line_1_6_25" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_pisanica_reka);" y="918" pos="25" />
+
+  <layer name="line_1_6_26" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_pisanica_teritor);" y="956" pos="26" />
+
+  <layer name="line_1_6_27" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_reka);" y="994" pos="27" />
+
+  <layer name="line_1_6_28" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_vodopad1);" y="1032" pos="28" />
+
+  <layer name="line_1_6_29" parent="scr_gr_1_6" style="row_container" onclick="load_m(scene_vodopad2);" y="1070" pos="29" />
+
+  <layer name="line_1_7" parent="scr_gr_1" style="header_container" onclick="next_menu();" y="340" group="true" pos="7" />
+
+  <layer name="gr_1_7" style="cont_gr" x="250" step_g="2" txt_layer="txt_1_7" />
+
+  <layer name="scr_gr_1_7" parent="gr_1_7" style="scroll_m" height="124" />
+
+  <layer name="line_1_7_1" parent="scr_gr_1_7" style="row_container" onclick="next_menu();" y="6" group="true" pos="1" />
+
+  <layer name="line_1_7_2" parent="scr_gr_1_7" style="row_container" y="44" pos="2" />
+
+  <layer name="line_1_7_3" parent="scr_gr_1_7" style="row_container" y="82" pos="3" />
+
+  <layer name="gr_1_7_1" style="cont_gr" x="500" step_g="3" txt_layer="txt_1_7_1" />
+
+  <layer name="scr_gr_1_7_1" parent="gr_1_7_1" style="scroll_m" height="86" />
+
+  <layer name="line_1_7_1_1" parent="scr_gr_1_7_1" style="row_container" onclick="next_menu();" y="6" group="true" pos="1" />
+
+  <layer name="line_1_7_1_2" parent="scr_gr_1_7_1" style="row_container" y="44" pos="2" />
+
+  <layer name="gr_1_7_1_1" style="cont_gr" x="750" step_g="4" txt_layer="txt_1_7_1_1" />
+
+  <layer name="scr_gr_1_7_1_1" parent="gr_1_7_1_1" style="scroll_m" height="86" />
+
+  <layer name="line_1_7_1_1_1" parent="scr_gr_1_7_1_1" style="row_container" onclick="next_menu();" y="6" group="true" pos="1" />
+
+  <layer name="line_1_7_1_1_2" parent="scr_gr_1_7_1_1" style="row_container" y="44" pos="2" />
+
+  <layer name="gr_1_7_1_1_1" style="cont_gr" x="1000" step_g="5" txt_layer="txt_1_7_1_1_1" />
+
+  <layer name="scr_gr_1_7_1_1_1" parent="gr_1_7_1_1_1" style="scroll_m" height="86" />
+
+  <layer name="line_1_7_1_1_1_1" parent="scr_gr_1_7_1_1_1" style="row_container" onclick="next_menu();" y="6" group="true" pos="1" />
+
+  <layer name="line_1_7_1_1_1_2" parent="scr_gr_1_7_1_1_1" style="row_container" y="44" pos="2" />
+
+  <layer name="gr_1_7_1_1_1_1" style="cont_gr" x="1250" step_g="6" txt_layer="txt_1_7_1_1_1_1" />
+
+  <layer name="scr_gr_1_7_1_1_1_1" parent="gr_1_7_1_1_1_1" style="scroll_m" height="86" />
+
+  <layer name="line_1_7_1_1_1_1_1" parent="scr_gr_1_7_1_1_1_1" style="row_container" onclick="next_menu();" y="6" group="true" pos="1" />
+
+  <layer name="line_1_7_1_1_1_1_2" parent="scr_gr_1_7_1_1_1_1" style="row_container" y="44" pos="2" />
+
+  <layer name="gr_1_7_1_1_1_1_1" style="cont_gr" x="1500" step_g="7" txt_layer="txt_1_7_1_1_1_1_1" />
+
+  <layer name="scr_gr_1_7_1_1_1_1_1" parent="gr_1_7_1_1_1_1_1" style="scroll_m" height="86" />
+
+  <layer name="line_1_7_1_1_1_1_1_1" parent="scr_gr_1_7_1_1_1_1_1" style="row_container" y="6" pos="1" />
+
+  <layer name="line_1_7_1_1_1_1_1_2" parent="scr_gr_1_7_1_1_1_1_1" style="row_container" y="44" pos="2" />
+
+  <layer name="line_1_8" parent="scr_gr_1" style="header_container" onclick="next_menu();" y="395" group="true" pos="8" />
+
+  <layer name="gr_1_8" style="cont_gr" x="250" step_g="2" txt_layer="txt_1_8" />
+
+  <layer name="scr_gr_1_8" parent="gr_1_8" style="scroll_m" height="314" />
+
+  <layer name="line_1_8_1" parent="scr_gr_1_8" style="row_container" onclick="switch(fullscreen);" y="6" pos="1" />
+
+  <layer name="line_1_8_2" parent="scr_gr_1_8" style="row_container" onclick="skin_changecontrolmode();" y="44" pos="2" />
+
+  <layer name="line_1_8_3" parent="scr_gr_1_8" style="row_container" onclick="skin_view_normal();" y="82" pos="3" />
+
+  <layer name="line_1_8_4" parent="scr_gr_1_8" style="row_container" onclick="skin_view_fisheye();" y="120" pos="4" />
+
+  <layer name="line_1_8_5" parent="scr_gr_1_8" style="row_container" onclick="skin_view_stereographic();" y="158" pos="5" />
+
+  <layer name="line_1_8_6" parent="scr_gr_1_8" style="row_container" onclick="skin_view_architectural();" y="196" pos="6" />
+
+  <layer name="line_1_8_7" parent="scr_gr_1_8" style="row_container" onclick="skin_view_pannini();" y="234" pos="7" />
+
+  <layer name="line_1_8_8" parent="scr_gr_1_8" style="row_container" onclick="skin_view_littleplanet();" y="272" pos="8" />
+
+  <layer name="line_1_9" parent="scr_gr_1" style="header_container" onclick="next_menu();" y="450" group="true" pos="9" />
+
+  <layer name="gr_1_9" style="cont_gr" x="250" step_g="2" txt_layer="txt_1_9" />
+
+  <layer name="scr_gr_1_9" parent="gr_1_9" style="scroll_m" height="450" />
+
+  <layer name="line_1_9_1" parent="scr_gr_1_9" style="container_thumbnails" onclick="openPhotoSM(%CURRENTXML%/menu/image/nature1.jpg);" y="12" pos="1" />
+
+  <layer name="miniat_1_9_1" parent="line_1_9_1" style="menu_thumbnail" url="%CURRENTXML%/menu/image/Thumbnails/nature1.jpg" />
+
+  <layer name="line_1_9_2" parent="scr_gr_1_9" style="container_thumbnails" onclick="openPhotoSM(%CURRENTXML%/menu/image/nature6.jpg);" y="122" pos="2" />
+
+  <layer name="miniat_1_9_2" parent="line_1_9_2" style="menu_thumbnail" url="%CURRENTXML%/menu/image/Thumbnails/nature6.jpg" />
+
+  <layer name="line_1_9_3" parent="scr_gr_1_9" style="container_thumbnails" onclick="openPhotoSM(%CURRENTXML%/menu/image/DSC_7150.jpg);" y="232" pos="3" />
+
+  <layer name="miniat_1_9_3" parent="line_1_9_3" style="menu_thumbnail" url="%CURRENTXML%/menu/image/Thumbnails/DSC_7150.jpg" />
+
+  <layer name="line_1_9_4" parent="scr_gr_1_9" style="container_thumbnails" onclick="openPhotoSM(%CURRENTXML%/menu/image/DSC_3766.jpg);" y="342" pos="4" />
+
+  <layer name="miniat_1_9_4" parent="line_1_9_4" style="menu_thumbnail" url="%CURRENTXML%/menu/image/Thumbnails/DSC_3766.jpg" />
+
+  <layer name="line_1_10" parent="scr_gr_1" style="header_container" onclick="next_menu();" y="505" group="true" pos="10" />
+
+  <layer name="gr_1_10" style="cont_gr" x="250" step_g="2" txt_layer="txt_1_10" />
+
+  <layer name="scr_gr_1_10" parent="gr_1_10" style="scroll_m" height="106" />
+
+  <layer name="line_1_10_1" parent="scr_gr_1_10" style="row_container" onclick="openFrame(iframe,https://krpano.com, 3000, 2000, true);" width="84%" height="44" y="6" edit_group="false" pos="1" edit_gr_t="false" />
+
+  <layer name="line_1_10_2" parent="scr_gr_1_10" style="row_container" onclick="openYout(hUDioIQdDGs)" width="84%" height="40" y="56" edit_group="false" pos="2" edit_gr_t="false" />
+
+  <layer name="line_1_11" parent="scr_gr_1" style="header_container" onclick="next_menu();" y="560" group="true" pos="11" bgborder="2,0,0,2 0x5E8A8C 1.00" bgshadow="3 4 3 0x000000 0.41" />
+
+  <layer name="gr_1_11" style="cont_gr" x="250" step_g="2" txt_layer="txt_1_11" />
+
+  <layer name="scr_gr_1_11" parent="gr_1_11" style="scroll_m" height="810" y="0.2939698839696812" />
+
+  <layer name="line_1_1_6_2" parent="scr_gr_1_1_6" style="container_thumbnails" onclick="load_m(scene_vodopad2);" y="122" pos="2" />
+
+  <layer name="miniat_1_1_6_2" parent="line_1_1_6_2" style="menu_thumbnail" url="%FIRSTXML%/panos/Vodopad2.tiles/thumb.jpg" />
+
+  <layer name="line_1_11_1" parent="scr_gr_1_11" style="row_container" onclick="openPhotoSM(%CURRENTXML%/menu/image/nature6.jpg);" height="122" x="3" y="19" edit_group="false" pos="1" step_v="19" bgborder="2,0,0,2 0x5DA9B5 1.00" bgroundedge="0 13 0 11" bgshadow="4 6 12 0x00C8FF 0.84" bgcolor="0x2D707A" bgalpha="1" />
+
+  <layer name="miniat_1_11_1" parent="line_1_11_1" style="menu_thumbnail" url="%CURRENTXML%/menu/image/Thumbnails/nature6.jpg" edit_group="false" />
+
+  <layer name="line_1_11_2" parent="scr_gr_1_11" style="container_thumbnails" onclick="load_m(scene_acadtmparc);" width="83%" height="173" y="160" edit_group="false" pos="2" bgborder="1,1,1,1 0xDDDDDD 1.00" bgshadow="6 8 6 0x1D1D1D 0.60" bgroundedge="20 20 20 20" step_v="19" />
+
+  <layer name="miniat_1_11_2" parent="line_1_11_2" style="menu_thumbnail" url="%FIRSTXML%/panos/acadtmparc.tiles/thumb.jpg" edit_group="false" />
+
+  <layer name="line_1_11_3" type="container" parent="scr_gr_1_11" style="container_picture" width="72%" x="0" y="355" align="top" edit_group="false" pos="3" step_v="22" onover_color="4436418" pict="miniat_1_11_3" />
+
+  <layer name="line_1_11_4" parent="scr_gr_1_11" style="container_thumbnails" onclick="load_m(scene_bugrinskiy);" width="46%" height="113" x="55" y="415" edit_group="false" pos="4" bgborder="2,2,2,2 0xDDDDDD 1.00" bgshadow="4 5 14 0xFFFFFF 0.60" bgroundedge="63 63 63 63" step_v="23" />
+
+  <layer name="miniat_1_11_4" parent="line_1_11_4" style="menu_thumbnail" url="%FIRSTXML%/panos/Bugrinskiy.tiles/thumb.jpg" edit_group="false" />
+
+  <layer name="line_1_11_5" parent="scr_gr_1_11" style="container_thumbnails" onclick="load_m(scene_chike-taman2);" width="53%" height="130" x="-30" y="514" edit_group="false" pos="5" bgborder="2,2,2,2 0x00C8FF 1.00" bgshadow="5 4 11 0x00D0FF 0.54" bgroundedge="81 81 81 81" step_v="-14" />
+
+  <layer name="miniat_1_11_5" parent="line_1_11_5" style="menu_thumbnail" url="%FIRSTXML%/panos/chike-taman2.tiles/thumb.jpg" edit_group="false" />
+
+  <layer name="line_1_11_6" parent="scr_gr_1_11" style="container_thumbnails" onclick="load_m(scene_ngu);" width="63%" height="156" x="26" y="644" edit_group="false" pos="6" bgborder="2,2,2,2 0xFF8000 1.00" bgshadow="4 7 11 0xAED900 1.00" bgroundedge="83 83 83 83" step_v="0" />
+
+  <layer name="miniat_1_11_6" parent="line_1_11_6" style="menu_thumbnail" url="%FIRSTXML%/panos/NGU.tiles/thumb.jpg" edit_group="false" />
+
+  <layer name="line_1_12" parent="scr_gr_1" style="row_container" onclick="play_sound_men(menu,%CURRENTXML%/menu/sound/2.mp3, 1, false)" width="53%" x="-35" y="615" edit_group="false" pos="12" step_v="10" edit_gr_t="false" />
+
+  <layer name="marker_1_1_1" parent="line_1_1_1" style="indik_prosmotr" />
+
+  <layer name="marker_1_1_2" parent="line_1_1_2" style="indik_prosmotr" />
+
+  <layer name="marker_1_1_3" parent="line_1_1_3" style="indik_prosmotr" />
+
+  <layer name="marker_1_1_4" parent="line_1_1_4" style="indik_prosmotr" />
+
+  <layer name="marker_1_1_5" parent="line_1_1_5" style="indik_prosmotr" />
+
+  <layer name="marker_1_1_6_1" parent="line_1_1_6_1" style="indik_prosmotr" />
+
+  <layer name="marker_1_2_1" parent="line_1_2_1" style="indik_prosmotr" />
+
+  <layer name="marker_1_2_2" parent="line_1_2_2" style="indik_prosmotr" />
+
+  <layer name="marker_1_2_3" parent="line_1_2_3" style="indik_prosmotr" />
+
+  <layer name="marker_1_2_4_1" parent="line_1_2_4_1" style="indik_prosmotr" />
+
+  <layer name="marker_1_2_4_2" parent="line_1_2_4_2" style="indik_prosmotr" />
+
+  <layer name="marker_1_2_4_3" parent="line_1_2_4_3" style="indik_prosmotr" />
+
+  <layer name="marker_1_3_1" parent="line_1_3_1" style="indik_prosmotr" />
+
+  <layer name="marker_1_3_2" parent="line_1_3_2" style="indik_prosmotr" />
+
+  <layer name="marker_1_3_3" parent="line_1_3_3" style="indik_prosmotr" />
+
+  <layer name="marker_1_3_4" parent="line_1_3_4" style="indik_prosmotr" />
+
+  <layer name="marker_1_3_5" parent="line_1_3_5" style="indik_prosmotr" />
+
+  <layer name="marker_1_3_6" parent="line_1_3_6" style="indik_prosmotr" />
+
+  <layer name="marker_1_4_2" parent="line_1_4_2" style="indik_prosmotr" />
+
+  <layer name="marker_1_4_1" parent="line_1_4_1" style="indik_prosmotr" />
+
+  <layer name="marker_1_4_3" parent="line_1_4_3" style="indik_prosmotr" />
+
+  <layer name="marker_1_4_4" parent="line_1_4_4" style="indik_prosmotr" />
+
+  <layer name="marker_1_5_1" parent="line_1_5_1" style="indik_prosmotr" />
+
+  <layer name="marker_1_5_2" parent="line_1_5_2" style="indik_prosmotr" />
+
+  <layer name="marker_1_5_3" parent="line_1_5_3" style="indik_prosmotr" />
+
+  <layer name="marker_1_1_6_2" parent="line_1_1_6_2" style="indik_prosmotr" />
+
+  <layer name="marker_1_11_2" parent="line_1_11_2" style="indik_prosmotr" edit_group="false" />
+
+  <layer name="marker_1_11_4" parent="line_1_11_4" style="indik_prosmotr" edit_group="false" />
+
+  <layer name="marker_1_11_5" parent="line_1_11_5" style="indik_prosmotr" edit_group="false" />
+
+  <layer name="marker_1_11_6" parent="line_1_11_6" style="indik_prosmotr" edit_group="false" />
+
+  <layer name="miniat_1_11_3" parent="line_1_11_3" style="menu_picture" edit_group="false" />
+
+  <layer name="txt_1_1" parent="line_1_1" style="txt_head" txt_1="Altai " txt_2="Алтай" icon="[img src=[dq] menu/image/icon/gory.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]" text="[img src=[dq] menu/image/icon/gory.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]Altai " />
+
+  <layer name="txt_1_1_1" parent="line_1_1_1" style="txt_menu_thumbnail" txt_1="Steppe" txt_2="Степь" text="Steppe" />
+
+  <layer name="txt_1_1_2" parent="line_1_1_2" style="txt_menu_thumbnail" txt_1="Road" txt_2="Дорога" text="Road" />
+
+  <layer name="txt_1_1_3" parent="line_1_1_3" style="txt_menu_thumbnail" txt_1="Chike-Taman Pass" txt_2="Перевал Чике-таман" text="Chike-Taman Pass" />
+
+  <layer name="txt_1_1_4" parent="line_1_1_4" style="txt_menu_thumbnail" txt_1="River «Katunj»" txt_2="Река «Катунь»" text="River «Katunj»" />
+
+  <layer name="txt_1_1_5" parent="line_1_1_5" style="txt_menu_thumbnail" txt_1="«Oroktoi» Bridge" txt_2="«Ороктойский» мост" text="«Oroktoi» Bridge" />
+
+  <layer name="txt_1_1_6" parent="line_1_1_6" style="txt_menu_thumbnail" txt_1="«Beltertuyuk» Waterfall" txt_2="Водопад «Бельтертуюк»" text="«Beltertuyuk» Waterfall" />
+
+  <layer name="txt_1_1_6_1" parent="line_1_1_6_1" style="txt_menu_thumbnail" txt_1="«Beltertuyuk» Waterfall" txt_2="Водопад" text="«Beltertuyuk» Waterfall" />
+
+  <layer name="txt_1_2" parent="line_1_2" style="txt_head" txt_1="Winter" txt_2="Зима" icon="[img src=[dq] menu/image/icon/zima.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]" text="[img src=[dq] menu/image/icon/zima.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]Winter" />
+
+  <layer name="txt_1_2_1" parent="line_1_2_1" style="txt_menu_thumbnail" txt_1="«Bugrinsky» bridge" txt_2="«Бугринский» мост" text="«Bugrinsky» bridge" />
+
+  <layer name="txt_1_2_2" parent="line_1_2_2" style="txt_menu_thumbnail" txt_1="Gateway - channel" txt_2="Шлюз - канал" text="Gateway - channel" />
+
+  <layer name="txt_1_2_3" parent="line_1_2_3" style="txt_menu_thumbnail" txt_1="Foundation pit" txt_2="Котлован" text="Foundation pit" />
+
+  <layer name="txt_1_2_4" parent="line_1_2_4" style="txt_head" edit_group="false" txt_1="Tomsk - scribble" txt_2="Томская писаница" text="Tomsk - scribble" />
+
+  <layer name="txt_1_2_4_1" parent="line_1_2_4_1" style="txt_menu_thumbnail" txt_1="Tomsk - scribble" txt_2="Писаница" text="Tomsk - scribble" />
+
+  <layer name="txt_1_2_4_2" parent="line_1_2_4_2" style="txt_menu_thumbnail" txt_1=" «Tomy» River" txt_2="Река «Томь»" text=" «Tomy» River" />
+
+  <layer name="txt_1_2_4_3" parent="line_1_2_4_3" style="txt_menu_thumbnail" txt_1="Park territory" txt_2="Территория парка" text="Park territory" />
+
+  <layer name="txt_1_3" parent="line_1_3" style="txt_head" txt_1="Night panoramas" txt_2="Ночные панорамы" icon="[img src=[dq] menu/image/icon/luna.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]" text="[img src=[dq] menu/image/icon/luna.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]Night panoramas" />
+
+  <layer name="txt_1_3_1" parent="line_1_3_1" style="txt_menu_thumbnail" txt_1="Ferris wheel" txt_2="Колесо обозрения" text="Ferris wheel" />
+
+  <layer name="txt_1_3_2" parent="line_1_3_2" style="txt_menu_thumbnail" txt_1="Akadem Park" txt_2="Академ - парк" text="Akadem Park" />
+
+  <layer name="txt_1_3_3" parent="line_1_3_3" style="txt_menu_thumbnail" txt_1="Novosibirsk hydroelectric station" txt_2="Новосибирская ГЭС" text="Novosibirsk hydroelectric station" />
+
+  <layer name="txt_1_3_4" parent="line_1_3_4" style="txt_menu_thumbnail" txt_1="Novosibirsk Opera House" txt_2="Новосибирский оперный театр" text="Novosibirsk Opera House" />
+
+  <layer name="txt_1_3_5" parent="line_1_3_5" style="txt_menu_thumbnail" txt_1="NSU" txt_2="НГУ" text="NSU" />
+
+  <layer name="txt_1_3_6" parent="line_1_3_6" style="txt_menu_thumbnail" txt_1="Kemerovo. Theater" txt_2="Кемерово театр" text="Kemerovo. Theater" />
+
+  <layer name="txt_1_4" parent="line_1_4" style="txt_head" txt_1="SEC «Eden»" txt_2="ТРЦ  «Эдем»" text="SEC «Eden»" />
+
+  <layer name="txt_1_4_2" parent="line_1_4_2" style="txt_menu_thumbnail" txt_1="Lobby" txt_2="Лобби" text="Lobby" />
+
+  <layer name="txt_1_4_1" parent="line_1_4_1" style="txt_menu_thumbnail" txt_1="2nd floor" txt_2="2 этаж" text="2nd floor" />
+
+  <layer name="txt_1_4_3" parent="line_1_4_3" style="txt_menu_thumbnail" txt_1="Cinema" txt_2="Кинотеатры" text="Cinema" />
+
+  <layer name="txt_1_4_4" parent="line_1_4_4" style="txt_menu_thumbnail" txt_1="Corridor 2nd floor" txt_2="Коридор 2 этаж" text="Corridor 2nd floor" />
+
+  <layer name="txt_1_5" parent="line_1_5" style="txt_head" txt_1="Sauna" txt_2="Сауна" icon="[img src=[dq] menu/image/icon/sauna.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]" text="[img src=[dq] menu/image/icon/sauna.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]Sauna" txt_3="Сауна" />
+
+  <layer name="txt_1_5_1" parent="line_1_5_1" style="txt_menu_thumbnail" txt_1="Pool" txt_2="Бассейн" text="Pool" />
+
+  <layer name="txt_1_5_2" parent="line_1_5_2" style="txt_menu_thumbnail" txt_1="Shower" txt_2="Душевая" text="Shower" />
+
+  <layer name="txt_1_5_3" parent="line_1_5_3" style="txt_menu_thumbnail" txt_1="scene_Komnata" txt_2="Комната отдыха" text="scene_Komnata" />
+
+  <layer name="txt_1_6" parent="line_1_6" style="txt_head" txt_1="All panoramas" txt_2="Все панорамы" icon="[img src=[dq] menu/image/icon/www.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]" text="[img src=[dq] menu/image/icon/www.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]All panoramas" />
+
+  <layer name="txt_1_6_1" parent="line_1_6_1" style="txt_line" txt_1="NSU" txt_2="НГУ" text="NSU" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_2" parent="line_1_6_2" style="txt_line" txt_1="Steppe" txt_2="Степь" text="Steppe" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_3" parent="line_1_6_3" style="txt_line" txt_1="Ferris wheel" txt_2="Колесо обозрения" text="Ferris wheel" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_4" parent="line_1_6_4" style="txt_line" txt_1="Akadem Park" txt_2="Академ парк" text="Akadem Park" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_5" parent="line_1_6_5" style="txt_line" txt_1="Alpine camp «Actru»" txt_2="Альп лагерь «Актру»" text="Alpine camp «Actru»" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_6" parent="line_1_6_6" style="txt_line" txt_1="Road" txt_2="Дорога" text="Road" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_7" parent="line_1_6_7" style="txt_line" txt_1="Pool" txt_2="Бассейн" text="Pool" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_8" parent="line_1_6_8" style="txt_line" txt_1="«Bugrinsky» bridge" txt_2="«Бугринский» мост" text="«Bugrinsky» bridge" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_9" parent="line_1_6_9" style="txt_line" txt_1="Chike-Taman Pass" txt_2="Перевал Чике-Таман" text="Chike-Taman Pass" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_10" parent="line_1_6_10" style="txt_line" txt_1="Shower" txt_2="Душевая" text="Shower" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_11" parent="line_1_6_11" style="txt_line" txt_1="Lobby" txt_2="Лобби" text="Lobby" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_12" parent="line_1_6_12" style="txt_line" txt_1="2nd floor" txt_2="2 этаж" text="2nd floor" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_13" parent="line_1_6_13" style="txt_line" txt_1="Cinema" txt_2="Кинотеатр" text="Cinema" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_14" parent="line_1_6_14" style="txt_line" txt_1="Corridor 2nd floor" txt_2="Коридор 2 этаж" text="Corridor 2nd floor" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_15" parent="line_1_6_15" style="txt_line" txt_1="Novosibirsk hydroelectric station" txt_2="ГЭС Новосибирск" text="Novosibirsk hydroelectric station" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_16" parent="line_1_6_16" style="txt_line" txt_1="Gateway - channel" txt_2="Шлюзовской канал" text="Gateway - channel" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_17" parent="line_1_6_17" style="txt_line" txt_1="River «Katunj»" txt_2="Река «Катунь»" text="River «Katunj»" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_18" parent="line_1_6_18" style="txt_line" txt_1="Kemerovo. Theater" txt_2="Театр. Кемерово" text="Kemerovo. Theater" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_19" parent="line_1_6_19" style="txt_line" txt_1="Комната отдыха" txt_2="Restroom" text="Комната отдыха" bgborder="0 0xFFFFFF 0" txt_3="Restroom" />
+
+  <layer name="txt_1_6_20" parent="line_1_6_20" style="txt_line" txt_1="Foundation pit" txt_2="Котлован" text="Foundation pit" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_21" parent="line_1_6_21" style="txt_line" txt_1="Lenin Square" txt_2="Площадь ленина" text="Lenin Square" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_22" parent="line_1_6_22" style="txt_line" txt_1="«Oroktoi» Bridge" txt_2="«Ороктойский» мост" text="«Oroktoi» Bridge" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_23" parent="line_1_6_23" style="txt_line" txt_1="Novosibirsk Opera House" txt_2="Новосибирский оперный театр" text="Novosibirsk Opera House" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_24" parent="line_1_6_24" style="txt_line" txt_1="Tomsk - scribble" txt_2="Томская писаница" text="Tomsk - scribble" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_25" parent="line_1_6_25" style="txt_line" txt_1=" «Tomy» River" txt_2=" «Томь» река" text=" «Tomy» River" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_26" parent="line_1_6_26" style="txt_line" txt_1="Park territory" txt_2="Территория парка" text="Park territory" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_27" parent="line_1_6_27" style="txt_line" txt_1="River «Actru»" txt_2="Река «Актру»" text="River «Actru»" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_28" parent="line_1_6_28" style="txt_line" txt_1="«Beltertuyuk» Waterfall" txt_2="Водопад «Бельтертуюк»  " text="«Beltertuyuk» Waterfall" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_6_29" parent="line_1_6_29" style="txt_line" txt_1="Waterfall - Bridge" txt_2="Мост у водопада" text="Waterfall - Bridge" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_7" parent="line_1_7" style="txt_head" txt_1="Investment depth is unlimited" txt_2="Глубина вложений не ограничена" text="Investment depth is unlimited" />
+
+  <layer name="txt_1_7_1" parent="line_1_7_1" style="txt_line" txt_1="2-1" text="2-1" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_7_2" parent="line_1_7_2" style="txt_line" txt_1="2-2" text="2-2" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_7_3" parent="line_1_7_3" style="txt_line" txt_1="2-3" text="2-3" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_7_1_1" parent="line_1_7_1_1" style="txt_line" txt_1="3-1" text="3-1" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_7_1_2" parent="line_1_7_1_2" style="txt_line" txt_1="3-2" text="3-2" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_7_1_1_1" parent="line_1_7_1_1_1" style="txt_line" txt_1="4-1" text="4-1" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_7_1_1_2" parent="line_1_7_1_1_2" style="txt_line" txt_1="4-2" text="4-2" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_7_1_1_1_1" parent="line_1_7_1_1_1_1" style="txt_line" txt_1="5-1" text="5-1" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_7_1_1_1_2" parent="line_1_7_1_1_1_2" style="txt_line" txt_1="5-2" text="5-2" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_7_1_1_1_1_1" parent="line_1_7_1_1_1_1_1" style="txt_line" txt_1="6-1" text="6-1" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_7_1_1_1_1_2" parent="line_1_7_1_1_1_1_2" style="txt_line" txt_1="6-2" text="6-2" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_7_1_1_1_1_1_1" parent="line_1_7_1_1_1_1_1_1" style="txt_line" txt_1="7-1" text="7-1" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_7_1_1_1_1_1_2" parent="line_1_7_1_1_1_1_1_2" style="txt_line" txt_1="7-2" text="7-2" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_8" parent="line_1_8" style="txt_head" txt_1="Projections" txt_2="Проекции" icon="[img src=[dq] menu/image/icon/shesterenka.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]" text="[img src=[dq] menu/image/icon/shesterenka.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]Projections" />
+
+  <layer name="txt_1_8_1" parent="line_1_8_1" style="txt_line" txt_1="FULLSCREEN" txt_2="Полный экран" text="FULLSCREEN" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_8_2" parent="line_1_8_2" style="txt_line" txt_1="Change Controlmode" txt_2="Смена управления" text="Change Controlmode" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_8_3" parent="line_1_8_3" style="txt_line" txt_1="Normal View" txt_2="Нормальный вид" text="Normal View" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_8_4" parent="line_1_8_4" style="txt_line" txt_1="Fisheye View" txt_2="Рыбий глаз" text="Fisheye View" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_8_5" parent="line_1_8_5" style="txt_line" txt_1="Stereographic View" txt_2="Стереоскопический" text="Stereographic View" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_8_6" parent="line_1_8_6" style="txt_line" txt_1="Architectural View" txt_2="Архитектурный вид" text="Architectural View" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_8_7" parent="line_1_8_7" style="txt_line" txt_1="Pannini View" txt_2="Панни вид" text="Pannini View" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_8_8" parent="line_1_8_8" style="txt_line" txt_1="Little Planet View" txt_2="Маленькая планета" text="Little Planet View" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="txt_1_9" parent="line_1_9" style="txt_head" txt_1="Photo" txt_2="Фотогалерея" text="Photo" />
+
+  <layer name="txt_1_9_1" parent="line_1_9_1" style="txt_menu_thumbnail" txt_1="Nature" txt_2="Природа" text="Nature" />
+
+  <layer name="txt_1_9_2" parent="line_1_9_2" style="txt_menu_thumbnail" txt_1="Sunset" txt_2="Закат" text="Sunset" />
+
+  <layer name="txt_1_9_3" parent="line_1_9_3" style="txt_menu_thumbnail" txt_1="Vietnam" txt_2="Въетнам" text="Vietnam" />
+
+  <layer name="txt_1_9_4" parent="line_1_9_4" style="txt_menu_thumbnail" txt_1="Milky Way" txt_2="Млечный Путь" text="Milky Way" />
+
+  <layer name="txt_1_10" parent="line_1_10" style="txt_head" txt_1="Frame" text="Frame" />
+
+  <layer name="txt_1_10_1" parent="line_1_10_1" style="txt_line" edit_group="false" txt_1="krpano.com" icon="[img src=[dq] menu/image/icon/www.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]" text="[img src=[dq] menu/image/icon/www.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]krpano.com" bgborder="0 0xFFFFFF 0" css="font-family:Verdana; font-style:italic; font-size:12px; color:#FFFFFF;" />
+
+  <layer name="txt_1_10_2" parent="line_1_10_2" style="txt_line" edit_group="false" txt_1="youtube" icon="[img src=[dq] menu/image/icon/youtube.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]" text="[img src=[dq] menu/image/icon/youtube.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]youtube" bgborder="0 0xFFFFFF 0" css="font-family:Verdana; font-style:italic; font-size:12px; color:#FFFFFF;" />
+
+  <layer name="txt_1_11" parent="line_1_11" style="txt_head" txt_1="example button" txt_2="Пример кнопок" text="example button" />
+
+  <layer name="txt_1_1_6_2" parent="line_1_1_6_2" style="txt_menu_thumbnail" txt_1="Waterfall - Bridge" text="Waterfall - Bridge" />
+
+  <layer name="txt_1_11_1" parent="line_1_11_1" style="txt_menu_thumbnail" edit_group="false" txt_1="PHOTO" txt_2="ФОТО" bgborder="1 0x000000 0.3" bgshadow="4 4 3 0x2D3E50 0" padding="0 5 0 19" bgcolor="0x005F70" bgalpha="0.3" txtshadow="4 5 4 0xFF0000 0.78" text="PHOTO" css="font-family:Impact; font-style:italic; color:#00B7FF; font-size:29px;" />
+
+  <layer name="txt_1_11_2" parent="line_1_11_2" style="txt_menu_thumbnail" edit_group="false" txt_1="Akadem Park" txt_2="Академ парк" bgcolor="0x0F4566" bgalpha="0.5" text="Akadem Park" />
+
+  <layer name="txt_1_11_3" parent="line_1_11_3" style="txt_picture" edit_group="false" txt_1="line_1_11_3" bgborder="1 0x000000 0.7" padding="0 5 0 0" text="line_1_11_3" css="font-family:Verdana; font-style:italic; text-align:center; color:#FFFFFF; font-size:17px;" />
+
+  <layer name="txt_1_11_4" parent="line_1_11_4" style="txt_menu_thumbnail" edit_group="false" txt_1="«Bugrinsky» bridge" txt_2="«Бугринский» мост" bgcolor="0x0F4566" bgalpha="0.5" text="«Bugrinsky» bridge" />
+
+  <layer name="txt_1_11_5" parent="line_1_11_5" style="txt_menu_thumbnail" edit_group="false" txt_1="Chike-Taman Pass" txt_2="Перевал Чике-Таман" bgcolor="0x0F4566" bgalpha="0.5" text="Chike-Taman Pass" />
+
+  <layer name="txt_1_11_6" parent="line_1_11_6" style="txt_menu_thumbnail" edit_group="false" txt_1="NSU" txt_2="НГУ" onover_color="0x425199" bgcolor="0xD62222" text="NSU" />
+
+  <layer name="txt_1_12" parent="line_1_12" style="txt_line" edit_group="false" txt_1="sound" txt_2="звук" icon="[img src=[dq] menu/image/icon/sound.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]" text="[img src=[dq] menu/image/icon/sound.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]sound" bgborder="0 0xFFFFFF 0" />
+
+  <layer name="marker_1_1" parent="line_1_1" style="ic_next" />
+
+  <layer name="marker_1_1_6" parent="line_1_1_6" style="ic_next" />
+
+  <layer name="marker_1_2" parent="line_1_2" style="ic_next" />
+
+  <layer name="marker_1_2_4" parent="line_1_2_4" style="ic_next" />
+
+  <layer name="marker_1_3" parent="line_1_3" style="ic_next" />
+
+  <layer name="marker_1_4" parent="line_1_4" style="ic_next" />
+
+  <layer name="marker_1_5" parent="line_1_5" style="ic_next" />
+
+  <layer name="marker_1_6" parent="line_1_6" style="ic_next" />
+
+  <layer name="marker_1_7" parent="line_1_7" style="ic_next" />
+
+  <layer name="marker_1_7_1" parent="line_1_7_1" style="ic_next" />
+
+  <layer name="marker_1_7_1_1" parent="line_1_7_1_1" style="ic_next" />
+
+  <layer name="marker_1_7_1_1_1" parent="line_1_7_1_1_1" style="ic_next" />
+
+  <layer name="marker_1_7_1_1_1_1" parent="line_1_7_1_1_1_1" style="ic_next" />
+
+  <layer name="marker_1_7_1_1_1_1_1" parent="line_1_7_1_1_1_1_1" style="ic_next" />
+
+  <layer name="marker_1_8" parent="line_1_8" style="ic_next" />
+
+  <layer name="marker_1_9" parent="line_1_9" style="ic_next" />
+
+  <layer name="marker_1_10" parent="line_1_10" style="ic_next" />
+
+  <layer name="marker_1_11" parent="line_1_11" style="ic_next" edit_group="false" />
+
+  
+
+</krpano>
