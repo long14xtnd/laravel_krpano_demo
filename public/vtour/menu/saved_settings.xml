@@ -2,7 +2,7 @@
 
  <menu_sm  
 			open_start="true"
-			open_start_mob="false"
+			open_start_mob="true"
 			click_hide="false"
 			mobile_click_hide="true"
 			menu_width="250"

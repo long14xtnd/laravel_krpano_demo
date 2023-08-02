@@ -2,7 +2,7 @@
 
  <menu_sm  
 			open_start="true"
-			open_start_mob="false"
+			open_start_mob="true"
 			click_hide="false"
 			mobile_click_hide="true"
 			menu_width="250"
@@ -22,7 +22,7 @@
 			logo_y="6"
 			logo_x="4"
 			logo=""
-			logo_text="Homstay Ba Vì"
+			logo_text="Homstay Ba Vì viettech"
 			logo_txtshadow="2 2 4 0x000000 0.6"
 			logo_css_text="font-family:Verdana; font-style:italic; text-align:center; color:#FFFFFF; font-size:20px;"
 			logo_padding="0 30 30 7"
