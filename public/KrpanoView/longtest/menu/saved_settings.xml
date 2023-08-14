@@ -1,0 +1,297 @@
+<krpano>
+
+ <menu_sm  
+			open_start="true"
+			open_start_mob="true"
+			click_hide="false"
+			mobile_click_hide="true"
+			menu_width="250"
+			menu_height="100%"
+			menu_x="0"
+			menu_y="0"
+			menu_bgcolor="0x296E78"
+			menu_bgborder="0,0,0,0 0x6698A8 0.96"
+			menu_bgroundedge="0 0 0 0"
+			menu_bgshadow="2 2 3 0x0D0D0D 0.42"
+			menu_bgalpha="0.66"
+			menu_align="lefttop"
+			logo_cont_height="79"
+			logo_height="60"
+			logo_cont_color="0x05484D"
+			logo_cont_alpha="0.50"
+			logo_y="6"
+			logo_x="4"
+			logo="%CURRENTXML%/menu/image/hailongdev.jpg"
+			logo_text="hailongdev"
+			logo_txtshadow="2 2 4 0x000000 0.6"
+			logo_css_text="font-family:Verdana; font-style:italic; text-align:center; color:#FFFFFF; font-size:20px;"
+			logo_padding="0 131 10 8"
+			logo_click="openFrame(iframe, http://website3d.vn/, 1200, 900, true);"
+			title_height="34"
+			title_width="100%"
+			title_bgcolor="0x2A6F7A"
+			title_bgalpha="0.97"
+			title_bgshadow="0 5 18 0x191919 0.54"
+			title_bgborder="1,1,1,1 0xA3AFB0 1.00"
+			title_bgroundedge="0 0 0 0"
+			title_text_1="Homestay của Long"
+			title_text_2="Меню"
+			title_text_3="Menu 3"
+			title_text_4="Menu 4"
+			title_text_bgshadow="2 2 3 0x000000 0.4"
+			title_css="font-family:Verdana; font-style:italic; text-align:center; margin-left:20px; margin-right:5px; color:#FFFFFF; font-size:15px;"
+			title_padding="0 45 0 0"
+			title_onover_color="3571594"
+			title_picture=""
+			group_indicator_height="20"
+			head_step_v="10"
+			head_width="90%"
+			head_height="45"
+			head_x="0"
+			head_bgcolor="0x2B6F7A"
+			head_bgalpha="0.99"
+			head_bgborder="2,0,0,2 0x628D8F 0.97"
+			head_bgroundedge="0 16 0 17"
+			head_bgshadow="3 4 3 0x0A0A0A 0.44"
+			head_text_bgshadow="2 2 4 0x000000 0.6"
+			head_padding="0 10 0 18"
+			head_line_css="font-family:Verdana; font-style:italic; color:#FFFFFF; font-size:14px;"
+			head_onover_color="0x2B828F"
+			head_onover_bgalpha="0.9"
+			line_step_v="6"
+			line_width="90%"
+			line_height="32"
+			line_x="0"
+			line_bgcolor="0x296E78"
+			line_bgalpha="0.98"
+			line_onover_color="0x3AADBF"
+			line_onover_bgalpha="0.9"
+			line_bgborder="2,0,0,2 0x61A8B3 0.98"
+			line_bgroundedge="9 9 9 9"
+			line_bgshadow="2 3 3 0x052129 0.64"
+			line_text_bgshadow="2 2 4 0x000000 0.6"
+			line_padding="0 10 0 21"
+			line_css="font-family:Verdana; font-style:italic; color:#FFFFFF; font-size:12px;"
+			line_css2="font-family:Verdana; font-style:italic; font-size:12px; color:#FFFF00;"
+			thumbnail_width="90%"
+			thumbnail_height="98"
+			thumbnail_x="0"
+			thumbnail_step_v="12"
+			thumbnail_bgcolor="0x0B5D66"
+			thumbnail_bgalpha="0.29"
+			thumbnail_onover_bgalpha="0.76"
+			thumbnail_onover_color="0x0F5230"
+			thumbnail_bgroundedge="0 19 0 13"
+			thumbnail_bgborder="0,0,0,0 0xFFFFFF 0.97"
+			thumbnail_bgshadow="6 8 13 0x000000 0.51"
+			thumbnail_text_bgshadow="2 2 3 0x1D1D1D 0.6"
+			thumbnail_padding="0 1 0 0"
+			thumbnail_css="font-family:Verdana; font-style:italic; font-size:14px; color:#FFFFFF; text-align:center;"
+			view_marker="true"
+			picture_url="%FIRSTXML%/menu/image/Picture/butt2.jpg"
+			picture_height="37"
+			picture_alpha="1"
+			picture_bgborder="0,0,0,0 0xFFFFFF 1"
+			picture_bgroundedge="2 2 2 2"
+			picture_bgshadow="2 2 3  0x1D1D1D 0.6"
+			picture_crop="0|80|273|80"
+			picture_onower="set(crop,0|0|273|80);"
+			picture_onout="set(crop,0|80|273|80);"
+			picture_padding="0 5 0 20"
+			picture_css="font-family:Verdana; font-style:italic; font-size:14px; color:#FFFFFF; text-align:center;"
+			icon_style_line="height:25px;vertical-align:middle; margin-right:10px;"
+			icon_style_head="height:25px;vertical-align:middle; margin-right:10px;"
+			bottom_height="40"
+			lang_1="RU"
+			lang_2="EN"
+			lang_3=""
+			lang_4=""
+			loadscene_flags="MERGE"
+			download_delay="1"
+			picture_line="0"
+			
+	/>
+
+<layer name="gr_1" style="cont_gr" visible="true" enabled="true" add_y="680" step_g="1" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="scr_gr_1" parent="gr_1" style="scroll_m" height="395" y="0.28267739880487425" />
+
+  <layer name="line_1_1" parent="scr_gr_1" style="header_container" onclick=" next_menu(); " y="10" group="true" pos="1" edit_gr_t="true" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="gr_1_1" style="cont_gr" x="250" step_g="2" txt_layer="txt_1_1" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="scr_gr_1_1" parent="gr_1_1" style="scroll_m" height="1098" />
+
+  <layer name="line_1_1_1" parent="scr_gr_1_1" style="container_thumbnails" onclick="openPhotoSM(%CURRENTXML%/menu/image/hailongdev.jpg);" y="12" pos="1" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_1_1" parent="line_1_1_1" loading="true" style="menu_thumbnail" url="%FIRSTXML%/panos/NGU.tiles/thumb.jpg" />
+
+  <layer name="line_1_1_2" parent="scr_gr_1_1" style="container_thumbnails" onclick="load_m(scene_dush);" y="122" pos="2" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_1_2" parent="line_1_1_2" loading="true" style="menu_thumbnail" url="%FIRSTXML%/panos/Dush.tiles/thumb.jpg" />
+
+  <layer name="line_1_1_3" parent="scr_gr_1_1" style="container_thumbnails" onclick="load_m(scene_edemkino);" y="232" pos="3" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_1_3" parent="line_1_1_3" loading="true" style="menu_thumbnail" url="%FIRSTXML%/panos/edemkino.tiles/thumb.jpg" />
+
+  <layer name="line_1_1_4" parent="scr_gr_1_1" style="container_thumbnails" onclick="load_m(scene_katunj);" y="342" pos="4" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_1_4" parent="line_1_1_4" loading="true" style="menu_thumbnail" url="%FIRSTXML%/panos/Katunj.tiles/thumb.jpg" />
+
+  <layer name="line_1_1_5" parent="scr_gr_1_1" style="container_thumbnails" onclick="load_m(scene_most_katuny);" y="452" pos="5" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_1_5" parent="line_1_1_5" loading="true" style="menu_thumbnail" url="%FIRSTXML%/panos/Most_Katuny.tiles/thumb.jpg" />
+
+  <layer name="line_1_1_6" parent="scr_gr_1_1" style="container_thumbnails" onclick="load_m(scene_vodopad1);next_menu();" y="562" group="true" pos="6" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_1_6" parent="line_1_1_6" loading="true" style="menu_thumbnail" url="%FIRSTXML%/panos/Vodopad1.tiles/thumb.jpg" />
+
+  <layer name="gr_1_1_6" style="cont_gr" x="500" step_g="3" txt_layer="txt_1_1_6" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="scr_gr_1_1_6" parent="gr_1_1_6" style="scroll_m" height="230" />
+
+  <layer name="line_1_1_6_1" parent="scr_gr_1_1_6" style="container_thumbnails" onclick="load_m(scene_vodopad1);" y="12" pos="1" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_1_6_1" parent="line_1_1_6_1" loading="true" style="menu_thumbnail" url="%FIRSTXML%/panos/Vodopad1.tiles/thumb.jpg" />
+
+  <layer name="line_1_1_6_2" parent="scr_gr_1_1_6" style="container_thumbnails" onclick="load_m(scene_vodopad2);" y="122" pos="2" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_1_6_2" parent="line_1_1_6_2" loading="true" style="menu_thumbnail" url="%FIRSTXML%/panos/Vodopad2.tiles/thumb.jpg" />
+
+  <layer name="line_1_1_7" type="container" parent="scr_gr_1_1" style="container_picture" onclick="openPhotoSM(%CURRENTXML%/menu/image/hailongdev.jpg);" y="666" align="top" pos="7" pict="miniat_1_1_7" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="line_1_1_8" parent="scr_gr_1_1" style="container_thumbnails" y="715" pos="8" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_1_8" parent="line_1_1_8" style="menu_thumbnail" />
+
+  <layer name="line_1_1_9" parent="scr_gr_1_1" style="container_thumbnails" y="825" pos="9" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_1_9" parent="line_1_1_9" style="menu_thumbnail" />
+
+  <layer name="line_1_1_10" parent="scr_gr_1_1" style="container_thumbnails" y="935" pos="10" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_1_10" parent="line_1_1_10" style="menu_thumbnail" />
+
+  <layer name="line_1_1_11" parent="scr_gr_1_1" style="header_container" onclick="load_m(scene_ngu);" y="1043" pos="11" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="line_1_13" parent="scr_gr_1" style="header_container" onclick="OpenViewM(171.49,22.84,120,scene_26);" y="65" pos="2" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="gr_1_14" style="cont_gr" x="250" step_g="2" txt_layer="txt_1_14" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="scr_gr_1_14" parent="gr_1_14" style="scroll_m" />
+
+  <layer name="line_1_15" parent="scr_gr_1" style="header_container" onclick="next_menu();" y="10" group="true" pos="1" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="gr_1_15" style="cont_gr" x="250" step_g="2" txt_layer="txt_1_15" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="scr_gr_1_15" parent="gr_1_15" style="scroll_m" height="340" />
+
+  <layer name="line_1_15_1" parent="scr_gr_1_15" style="container_thumbnails" onclick="load_m(scene_26);" y="12" pos="1" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_15_1" parent="line_1_15_1" style="menu_thumbnail" url="%FIRSTXML%/panos/26.tiles/thumb.jpg" />
+
+  <layer name="line_1_15_2" parent="scr_gr_1_15" style="container_thumbnails" onclick="load_m(scene_47);" y="122" pos="2" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_15_2" parent="line_1_15_2" style="menu_thumbnail" url="%FIRSTXML%/panos/47.tiles/thumb.jpg" />
+
+  <layer name="line_1_15_3" parent="scr_gr_1_15" style="container_thumbnails" onclick="load_m(scene_82);" y="232" pos="3" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_15_3" parent="line_1_15_3" style="menu_thumbnail" url="%FIRSTXML%/panos/82.tiles/thumb.jpg" />
+
+  <layer name="line_1_3" parent="scr_gr_1" style="header_container" onclick="load_m(scene_47);" y="120" pos="3" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="line_1_2" parent="scr_gr_1" style="header_container" onclick="load_m(scene_82);" y="175" pos="4" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="line_1_5" parent="scr_gr_1" style="header_container" onclick="play_sound_men(menu,http://localhost/laravel_krpano_demo/public/KrpanoView/longtest/menu/sound/2.mp3, 1, false)" y="230" pos="5" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="line_1_6" parent="scr_gr_1" style="header_container" onclick="openYout(O7u_IuhB7YA)" y="285" pos="6" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="line_1_4" parent="scr_gr_1" style="header_container" onclick="openFrame(iframe, http://website3d.vn/, 1200, 900, true);" y="340" pos="7" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="marker_1_1_1" parent="line_1_1_1" style="indik_prosmotr" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="marker_1_1_2" parent="line_1_1_2" style="indik_prosmotr" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="marker_1_1_3" parent="line_1_1_3" style="indik_prosmotr" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="marker_1_1_4" parent="line_1_1_4" style="indik_prosmotr" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="marker_1_1_5" parent="line_1_1_5" style="indik_prosmotr" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="marker_1_1_6_1" parent="line_1_1_6_1" style="indik_prosmotr" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="marker_1_1_6_2" parent="line_1_1_6_2" style="indik_prosmotr" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="marker_1_1_8" parent="line_1_1_8" style="indik_prosmotr" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="marker_1_1_9" parent="line_1_1_9" style="indik_prosmotr" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="marker_1_1_10" parent="line_1_1_10" style="indik_prosmotr" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="marker_1_15_1" parent="line_1_15_1" style="indik_prosmotr" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="marker_1_15_2" parent="line_1_15_2" style="indik_prosmotr" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="marker_1_15_3" parent="line_1_15_3" style="indik_prosmotr" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="miniat_1_1_7" parent="line_1_1_7" style="menu_picture" />
+
+  <layer name="txt_1_1" parent="line_1_1" style="txt_head" txt_1="long test 1" txt_2="long test 2" icon="[img src=[dq] public/vtour/menu/image/icon/gory.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]" text="[img src=[dq] public/vtour/menu/image/icon/gory.png[dq] style=[dq]height:25px;vertical-align:middle; margin-right:10px;[dq]/]long test 1" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_1_1" parent="line_1_1_1" style="txt_menu_thumbnail" txt_1="NSU" txt_2="Степь" text="NSU" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_1_2" parent="line_1_1_2" style="txt_menu_thumbnail" txt_1="Shower" txt_2="Дорога" text="Shower" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_1_3" parent="line_1_1_3" style="txt_menu_thumbnail" txt_1="Cinema" txt_2="Перевал Чике-таман" text="Cinema" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_1_4" parent="line_1_1_4" style="txt_menu_thumbnail" txt_1="River «Katunj»" txt_2="Река «Катунь»" text="River «Katunj»" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_1_5" parent="line_1_1_5" style="txt_menu_thumbnail" txt_1="«Oroktoi» Bridge" txt_2="«Ороктойский» мост" text="«Oroktoi» Bridge" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_1_6" parent="line_1_1_6" style="txt_menu_thumbnail" txt_1="«Beltertuyuk» Waterfall" txt_2="Водопад «Бельтертуюк»" text="«Beltertuyuk» Waterfall" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_1_6_1" parent="line_1_1_6_1" style="txt_menu_thumbnail" txt_1="«Beltertuyuk» Waterfall" txt_2="Водопад" text="«Beltertuyuk» Waterfall" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_1_6_2" parent="line_1_1_6_2" style="txt_menu_thumbnail" txt_1="Waterfall - Bridge" text="Waterfall - Bridge" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_1_7" parent="line_1_1_7" style="txt_picture" txt_1="line_1_1_7" text="line_1_1_7" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_1_8" parent="line_1_1_8" style="txt_menu_thumbnail" txt_1="line_1_1_8" text="line_1_1_8" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_1_9" parent="line_1_1_9" style="txt_menu_thumbnail" txt_1="line_1_1_9" text="line_1_1_9" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_1_10" parent="line_1_1_10" style="txt_menu_thumbnail" txt_1="line_1_1_10" text="line_1_1_10" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_1_11" parent="line_1_1_11" style="txt_head" txt_1="NSU" text="NSU" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_13" parent="line_1_13" style="txt_head" txt_1="view 1" text="view 1" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_15" parent="line_1_15" style="txt_head" txt_1="Menu homstay" text="Menu homstay" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_15_1" parent="line_1_15_1" style="txt_menu_thumbnail" txt_1="view 1" text="view 1" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_15_2" parent="line_1_15_2" style="txt_menu_thumbnail" txt_1="view 2" text="view 2" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_15_3" parent="line_1_15_3" style="txt_menu_thumbnail" txt_1="view 3" text="view 3" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_3" parent="line_1_3" style="txt_head" txt_1="view 2" text="view 2" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_2" parent="line_1_2" style="txt_head" txt_1="view 3" text="view 3" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_5" parent="line_1_5" style="txt_head" txt_1="sound" text="sound" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_6" parent="line_1_6" style="txt_head" txt_1="youtube" text="youtube" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="txt_1_4" parent="line_1_4" style="txt_head" txt_1="Website3d" text="Website3d" bgbrightness="1" bgcontrast="1" bgsaturate="1" bghue="0" bginvert="0" bgsepia="0" bgblur="0" />
+
+  <layer name="marker_1_1" parent="line_1_1" style="ic_next" />
+
+  <layer name="marker_1_1_6" parent="line_1_1_6" style="ic_next" />
+
+  <layer name="marker_1_14" parent="line_1_14" style="ic_next" />
+
+  <layer name="marker_1_15" parent="line_1_15" style="ic_next" />
+
+  
+
+</krpano>

@@ -3,6 +3,8 @@
 	<include url="skin/vtourskin.xml" />
 	    <!-- Circle Hotspots Plugin -->
 	<include url="plugins/circle_hotspots.xml"/>
+	  <include url="menu/plugins/menu_sm.xml" />
+  <include url="menu/plugins/edit_menu_sm.xml" />   
 
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
 	<skin_settings maps="true"
